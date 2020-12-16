@@ -1,0 +1,15 @@
+<form action="{{ action }}" method="post">
+  <input type="hidden" name="ppc_PayModeOnLandingPage" value="{{ ppc_PayModeOnLandingPage }}" />
+  <input type="hidden" name="ppc_Amount" value="{{ ppc_Amount }}" />
+  <input type="hidden" name="order_request" value="{{ order_request }}" />
+  <input type="hidden" name="x_verify" value="{{ x_verify }}" />
+  <input type="hidden" name="gateway_mode" value="{{ gateway_mode }}" />
+  <input type="hidden" name="order_id" value="{{ order_id }}" />
+
+  
+  <div class="buttons">
+    <div class="right">
+      <input type="submit" value="{{ button_confirm }}" class="button" />
+    </div>
+  </div>
+</form>
